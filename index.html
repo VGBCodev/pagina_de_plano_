@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Vitor Gabriel Martins Borges">
+    <meta name="description" content="Página de Planos - VGBCodev">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Planos</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="cabecalho__logo">VGBCodev</div>
+
+        <nav class="cabecalho__nav">
+
+            <ul class="cabecalho__nav-lista">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="cabecalho__nav--active">Projetos</a></li>
+                <li><a href="#">Contatos</a></li>
+                <li><a href="#">Sobre</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <h1 class="main-title">Escolha seu plano!</h1>
+
+    <section class="pricing">
+
+        <!-- Plano Essencial -->
+        <div class="pricing-plan card" onclick="revealCard(this)">
+
+            <div class="card-inner">
+
+                <div class="card-front">
+
+                    <h2 class="plan__title">Essencial</h2>
+
+                    <p><span class="pricing__price">R$39,99</span>/mês</p>
+
+                </div>
+
+                <div class="card-back">
+
+                    <ul class="pricing-plan__features">
+
+                        <li>1 Website</li>
+                        <li>10GB de Armazenamento</li>
+                        <li>5 Contas de E-mail</li>
+                        <li>Suporte Básico</li>
+                        <li>SSL Gratuito</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <a href="#" class="pricing-plan__cta">Assine Já</a>
+
+        </div>
+
+        <!-- Plano Intermediário -->
+        <div class="pricing-plan card" onclick="revealCard(this)">
+
+            <div class="card-inner">
+
+                <div class="card-front">
+
+                    <h2 class="plan__title">Premium</h2>
+
+                    <p><span class="pricing__price">R$79,99</span>/mês</p>
+
+                </div>
+
+                <div class="card-back">
+
+                    <ul class="pricing-plan__features">
+
+                        <li>5 Websites</li>
+                        <li>50GB de Armazenamento</li>
+                        <li>20 Contas de E-mail</li>
+                        <li>Suporte Prioritário</li>
+                        <li>SSL Gratuito</li>
+                        <li>Backup Semanal</li>
+                        <li>Painel de Controle Simples</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <a href="#" class="pricing-plan__cta">Assine Já</a>
+
+        </div>
+
+        <!-- Plano Premium Gold -->
+        <div class="pricing-plan card" onclick="revealCard(this)">
+
+            <div class="card-inner">
+
+                <div class="card-front">
+
+                    <h2 class="plan__title">Deluxe</h2>
+
+                    <p><span class="pricing__price">R$179,99</span>/mês</p>
+
+
+                </div>
+
+                <div class="card-back">
+
+                    <ul class="pricing-plan__features">
+
+                        <li>Websites Ilimitados</li>
+                        <li>Armazenamento Ilimitado</li>
+                        <li>Contas de E-mail Ilimitadas</li>
+                        <li>Suporte VIP 24/7</li>
+                        <li>SSL Gratuito</li>
+                        <li>Backup Diário</li>
+                        <li>Migração Gratuita de Sites</li>
+                        <li>Firewall e Proteção Avançada</li>
+                        <li>CDN para Alta Velocidade</li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+            <a href="#" class="pricing-plan__cta">Assine Já</a>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
