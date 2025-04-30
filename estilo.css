@@ -5,6 +5,7 @@
 }
 
 body {
+    padding: 0 16px;
     background-color: black;
     color: white;
     width: 90%;
@@ -69,6 +70,7 @@ a.cabecalho__nav--active {
 }
 
 .pricing-plan {
+    margin: 0 auto;
     flex: 1;
     background-color: #1f262c;
     padding: 30px;
@@ -210,15 +212,18 @@ a.cabecalho__nav--active {
 
     .pricing {
         flex-direction: column;
-        gap: 24px;
+        gap: 24px; /* Espaço entre os cards */
     }
 
     .pricing-plan {
+        width: 100%;
+        max-width: 100%;
         height: auto;
     }
 
     .card {
         width: 100%;
+        max-width: 100%;
     }
 
     .card-inner {
