@@ -180,6 +180,7 @@ a.cabecalho__nav--active {
     body {
         width: 100%;
         padding: 0 16px;
+        margin: 0 auto;
     }
 
     .cabecalho {
@@ -206,24 +207,35 @@ a.cabecalho__nav--active {
     }
 
     .main-title {
-        font-size: 42px;
+        font-size: 36px;
         text-align: center;
+        margin: 32px 0 16px;
     }
 
     .pricing {
         flex-direction: column;
-        gap: 24px; /* Espaço entre os cards */
+        gap: 24px;
     }
 
     .pricing-plan {
         width: 100%;
-        max-width: 100%;
         height: auto;
+        padding: 24px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+    }
+
+    .pricing__price {
+        font-size: 28px;
+    }
+
+    .pricing-plan__cta {
+        font-size: 14px;
+        padding: 10px 16px;
     }
 
     .card {
         width: 100%;
-        max-width: 100%;
     }
 
     .card-inner {
@@ -237,6 +249,7 @@ a.cabecalho__nav--active {
         height: 100%;
         backface-visibility: hidden;
     }
+}
 }
 
 
