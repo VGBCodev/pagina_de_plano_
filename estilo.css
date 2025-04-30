@@ -175,7 +175,7 @@ a.cabecalho__nav--active {
 }
 
 @media (max-width: 768px) {
-   /* .cabecalho {
+    .cabecalho {
         flex-direction: column;
         align-items: flex-start;
     }
@@ -211,18 +211,10 @@ a.cabecalho__nav--active {
         height: auto;
     }
 
-    .card {
-        cursor: pointer;
+    .card-inner {
+        height: auto;
     }
-    
-    .card-toggle:checked + .card-inner {
-        transform: rotateY(180deg);
-    }
-    
-    .card:hover .card-inner {
-        transform: rotateY(180deg);
-    }
-*/
+
 }
 
 
